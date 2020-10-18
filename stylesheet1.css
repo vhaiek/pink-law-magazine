@@ -52,20 +52,31 @@ a:hover {
 /*CONTAINER 1 - main**/
 .container1 {
     background-color: lightcoral;
-    padding: 10px;
-    display: flex; 
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row-reverse;
+}
+
+/*CONTAINER ASIDE BAR **/
+.container-aside{
+    display:flex;
+    flex: 3;
 }
 
 /*CONTAINER 2 - NEW - BOXES - SUSCRIBE**/
 .container2 {
     background-color:lightskyblue;
-    padding: 10px;
+    display:flex;
+    flex: 7; 
+    flex-direction: column;
 }
 
 /*CONTAINER 3 - BOXES*/
 .container3 {
     background-color:lightgreen;
-    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around; 
 }
 
 footer {
