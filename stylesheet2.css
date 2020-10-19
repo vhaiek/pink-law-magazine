@@ -1,0 +1,10 @@
+/*MEDIA QUERIES **/
+
+@media only screen and (min-width: 1024px) {
+    .container-aside { 
+        flex-direction: row; 
+    }
+    .container2 {
+        flex-direction: row; 
+    }
+  }
