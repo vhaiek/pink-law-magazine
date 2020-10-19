@@ -51,7 +51,6 @@ a:hover {
     display: flex;
     justify-content: space-between; 
     flex-direction: row-reverse;
-    align-items: flex-start;
 }
 
 /*CONTAINER ASIDE BAR **/
@@ -84,13 +83,15 @@ a:hover {
     width: 70%;
     height: auto;
 }
-h2{
+h2 { 
+    margin-left: 15%;
+    margin-right: 15%;
     font-family: helvetica, arial;
-    font-size: 24px;
+    font-size: 23px;
     color: rgb(66, 66, 66);
     font-style: bold;
 }
-p{
+p {
     font-family: helvetica, arial;
     font-size: 18px;
     line-height: 1.5;
@@ -116,19 +117,13 @@ p{
     align-items: center;
 }
 .container-suscribe .button {
-    height: 35px;
+    height: 24px;
     background-color: rgb(255, 0, 85);
     color: white;
     font-family: helvetica, arial;
     border-radius: 10%;
 }
-.container-aside, #input {
-    height: 31px;
-    background-color: white;
-    color:rgb(94, 74, 74);
-    font-family: helvetica, arial;
-    border: none;
-}
+
 
 /*ASIDE BAR**/
 .aside-img {
@@ -140,7 +135,6 @@ p{
     font-size: 24px;
     font-family: 'Playfair Display', serif;
     text-align: center; 
-    margin-top: 60px;
 }
 .container-aside p{
     color: white;
