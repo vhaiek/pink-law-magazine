@@ -1,3 +1,4 @@
+/*MAIN PAGE**/
 /*HEADER**/ 
 header {
     display:inline-flex;
@@ -142,6 +143,11 @@ p {
     font-family: helvetica, arial;
 }
 
+#a-button {
+    background-color: rgb(255, 0, 85);
+    color: white;
+    font-family: helvetica, arial;
+}
 
 /*ASIDE BAR**/
 .aside-img {
@@ -252,4 +258,46 @@ footer p {
     font-size: 17px;
     font-family: 'Playfair Display', serif;
     text-align: center;
+}
+
+/*SUBSCRIPTION PAGE**/
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.input {
+    width: 45%;
+    display: inline;
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 40px;
+    background-color: #fcebe5;
+    color: rgb(94, 74, 74);
+    font-family: helvetica, arial;
+    font-size: 17px;
+    border: none;
+}
+.subscribe-btn {
+    width: 50%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 45px;
+    border: none;
+    font-family: helvetica, arial;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(94, 74, 74);
 }
