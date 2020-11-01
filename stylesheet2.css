@@ -35,4 +35,11 @@
     .menu-img {
         display: none;
     }
+    .input-group {
+        display: inline-block;
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
 }
