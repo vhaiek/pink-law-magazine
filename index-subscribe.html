@@ -17,16 +17,46 @@
     </header> 
     <div class="container-form">
         <form>
-            <input type="text" placeholder="Enter your name" class="input" id="name"> 
-            <input type="email" placeholder="Enter your email adress" class="input" id="email">
-            <input type="text" placeholder="Enter your password" class="input" id="password">
-            <input type="text" placeholder="Repeat your password" class="input" id="repeat-password">
-            <input type="number" placeholder="Enter your age" class="input" id="age">
-            <input type="text" placeholder="Enter your telephone number" class="input" id="number">
-            <input type="text" placeholder="Enter your adress" class="input" id="adress">
-            <input type="text" placeholder="Enter your city" class="input" id="city">
-            <input type="text" placeholder="Enter your postcode" class="input" id="postcode">
-            <input type="text" placeholder="Enter your dni" class="input" id="dni">
+            <div class ="input-group">
+                <input type="text" placeholder="Enter your name" class="input" id="name"> 
+                <p class="error">It must has more than 6 letters and at least one space between them.</p>
+            </div>
+            <div class ="input-group">
+                <input type="email" placeholder="Enter your email adress" class="input" id="email">
+                <p class="error">It must be a valid email adress. </p>
+            </div>
+            <div class ="input-group">
+                <input type="text" placeholder="Enter your password" class="input" id="password">
+                <p class="error">It must has at least 8 characters long and include letters and numbers. </p>
+            </div>
+            <div class ="input-group">    
+                <input type="text" placeholder="Repeat your password" class="input" id="repeat-password">
+                <p class="error">It must must be identical to the entered password. </p>
+            </div>
+            <div class ="input-group">
+                <input type="number" placeholder="Enter your age" class="input" id="age">
+                <p class="error">It must has an integer number, greater than or equal to 18. </p>
+            </div>
+            <div class ="input-group">    
+                <input type="text" placeholder="Enter your telephone number" class="input" id="number">
+                <p class="error">It must be a number of at least 7 digits without spaces, hyphens or parentheses. </p>
+            </div>
+            <div class ="input-group">    
+                <input type="text" placeholder="Enter your adress" class="input" id="adress">
+                <p class="error">It must has at least 5 characters, including letters, numbers, and a space between them. </p>
+            </div>
+            <div class ="input-group">
+                <input type="text" placeholder="Enter your city" class="input" id="city">
+                <p class="error">It must has at least 3 characters. </p>
+            </div>
+            <div class ="input-group">
+                <input type="text" placeholder="Enter your postcode" class="input" id="postcode">
+                <p class="error">It must has at least 3 characters. </p>
+            </div>
+            <div class ="input-group">
+                <input type="text" placeholder="Enter your dni" class="input" id="dni">
+                <p class="error">It must be a number of 7 or 8 digits. </p>
+            </div>
             <button class="subscribe-btn">Subscribe</button>
         </form> 
     </div>
