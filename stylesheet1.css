@@ -261,6 +261,15 @@ footer p {
 }
 
 /*SUBSCRIPTION PAGE**/
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;  
+    font-size: 30px;
+    color: rgb(94, 74, 74);
+}
 .container-form{
     display: flex;
     justify-content: center;
