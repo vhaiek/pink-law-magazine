@@ -1,3 +1,4 @@
+/*INPUT EVENTS*/
 /*INPUT NAME**/
 var inputName = (document.getElementById("name"));
 var errorMessage = (document.getElementsByClassName("error"));
@@ -256,7 +257,7 @@ function dniEvent2 (event) {
 }
 inputDni.addEventListener("focus", dniEvent2); 
 
-/*BUTTON*/
+/*BUTTON EVENTS*/
 var button = (document.getElementById("btn"));
 
 function btnEvent (event) {
@@ -295,3 +296,12 @@ function btnEvent (event) {
   }
 }
 button.addEventListener("click", btnEvent);
+
+/*TITLE EVENT*/
+var title = (document.getElementById("title"));
+
+function titleEvent(e) {
+  title.textContent = ("Hi ")+e.target.value;
+}
+
+inputName.addEventListener("keyup", titleEvent);
