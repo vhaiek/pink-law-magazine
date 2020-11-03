@@ -303,9 +303,5 @@ footer p {
     color: white;
 }
 .error {
-    /*font-size: 14px;
-    color: red;
-    text-align: center;
-    text-transform: initial;**/
     display: none;
 }
