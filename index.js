@@ -207,10 +207,10 @@ inputCity.addEventListener("focus", cityEvent2);
 
 /*INPUT POSTCODE*/ 
 var inputPostcode = (document.getElementById("postcode"));
+var errorPostcode = false;
 
 function postcodeEvent (event) {
   var value = event.target.value;
-  var errorPostcode = false;
 
   if (value.length < 3) {
     errorMessage[8].style.display = "block";
